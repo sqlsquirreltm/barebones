@@ -1,6 +1,7 @@
 #ifndef SETTINGS_H
 #define SETTINGS_H
 
+// Weather settings are not used
 //Weather Settings
 #define CITY_ID "5128581" //New York City https://openweathermap.org/current#cityid
 #define OPENWEATHERMAP_APIKEY "f058fe1cad2afe8e2ddc5d063a64cecb" //use your own API key :)
@@ -8,6 +9,7 @@
 #define TEMP_UNIT "imperial" //metric = Celsius , imperial = Fahrenheit
 #define TEMP_LANG "en"
 #define WEATHER_UPDATE_INTERVAL 30 //must be greater than 5, measured in minutes
+
 //NTP Settings
 #define NTP_SERVER "pool.ntp.org"
 #define GMT_OFFSET_SEC 3600 * -6 //New York is UTC -5 EST, -4 EDT, will be overwritten by weather data
